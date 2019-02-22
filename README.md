@@ -30,8 +30,7 @@ SS:Single Scale MSF:Multi-scale + Flip
 ### PASCAL VOC 2012(Never SBD only 1469 train img)
  Methods | Backbone | TrainSet | EvalSet | Mean IoU(SS) | Mean IoU(MSF) | Model 
 :--:|:--:|:--:|:--:|:--:|:--:|:--:
- DFN(paper)  | R101_v1c | *train_aug*  | *val*  | 73.67 | 74.12 | BaiduYun / GoogleDrive 
- DFN(ours)   | R101_v1c | *train_aug*  | *val*  | 73.03 | 73.15 | BaiduYun / GoogleDrive 
+ DFN(ours)   | R101_v1c | *train_aug*  | *val*  | 73.23 | 73.67 | BaiduYun / GoogleDrive 
  
 ### To Do
   - [ ] Deeplab v3 / Deeplab v3+
