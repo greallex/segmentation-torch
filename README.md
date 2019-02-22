@@ -1,4 +1,4 @@
-# TorchSeg
+# Segmentation-torch
 This project aims at providing a fast, modular reference implementation for semantic segmentation models using PyTorch.
 
 ![demo image](demo/human.png)
@@ -82,7 +82,8 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
     usage: -e epoch_idx -d device_idx -c save_csv [--verbose ] 
     [--show_image] [--save_path Pred_Save_Path]
     ```
-
+## Thank
+Thank the project struct from the ycszen's.
 
 
 
