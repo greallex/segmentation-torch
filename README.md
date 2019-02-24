@@ -25,8 +25,8 @@ This project aims at providing a fast, modular reference implementation for sema
 - [DFN](https://arxiv.org/abs/1804.09337) 
 
 ### Performance and Benchmarks
-SS:Single Scale MSF:Multi-scale + Flip
-Some amazing : BorderNet is not important?
+SS:Single Scale MSF:Multi-scale + Flip.   
+Some amazing : BorderNet is not important? 
 
 ### PASCAL VOC 2012(Never SBD only 1469 train img)
  Methods | Backbone | TrainSet | EvalSet | Mean IoU(SS) | Mean IoU(MSF) | Model 
