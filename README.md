@@ -26,11 +26,13 @@ This project aims at providing a fast, modular reference implementation for sema
 
 ### Performance and Benchmarks
 SS:Single Scale MSF:Multi-scale + Flip
+Some amazing : BorderNet is not important?
 
 ### PASCAL VOC 2012(Never SBD only 1469 train img)
  Methods | Backbone | TrainSet | EvalSet | Mean IoU(SS) | Mean IoU(MSF) | Model 
 :--:|:--:|:--:|:--:|:--:|:--:|:--:
- DFN(ours)   | R101_v1c | *train_aug*  | *val*  | 73.23 | 73.67 | BaiduYun / GoogleDrive 
+ DFN(ours+Border)   | R101_v1c | *train_aug*  | *val*  | 73.23 | 73.67 | BaiduYun / GoogleDrive 
+ DFN(ours)          | R101_v1c | *train_aug*  | *val*  | 73.57 | 73.81 | BaiduYun / GoogleDrive
  
 ### To Do
   - [ ] Deeplab v3 / Deeplab v3+
