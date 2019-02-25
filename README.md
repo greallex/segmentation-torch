@@ -23,20 +23,23 @@ This project aims at providing a fast, modular reference implementation for sema
 ## Model Zoo
 ### Supported Model
 - [DFN](https://arxiv.org/abs/1804.09337) 
+- [deeperlab](https://arxiv.org/abs/1902.05093)(CVPR2019)
 
 ### Performance and Benchmarks
 SS:Single Scale MSF:Multi-scale + Flip.   
 Some amazing : BorderNet is not important? 
-
+79.67 	80.61
 ### PASCAL VOC 2012(Never SBD only 1469 train img)
  Methods | Backbone | TrainSet | EvalSet | Mean IoU(SS) | Mean IoU(MSF) | Model 
 :--:|:--:|:--:|:--:|:--:|:--:|:--:
  DFN(ours+Border)   | R101_v1c | *train_aug*  | *val*  | 73.23 | 73.67 | BaiduYun / GoogleDrive 
  DFN(ours)          | R101_v1c | *train_aug*  | *val*  | 73.57 | 73.81 | BaiduYun / GoogleDrive
+ DFN(ours+SBD)      | R101_v1c | *train_aug*  | *val*  | 79.67 | 80.61 | BaiduYun / GoogleDrive
+ deeperlab(ours+SBD)| R101_v1c | *train_aug*  | *val*  | 79.71 | 80.26 | BaiduYun / GoogleDrive 
+ deeperlab(ours)    | R101_v1c | *train_aug*  | *val*  | 73.28 | 74.11 | BaiduYun / GoogleDrive
  
 ### To Do
   - [ ] Deeplab v3 / Deeplab v3+
-  - [ ] Deeperlab
 ### Link
 we must build the env for training 
 ```bash
