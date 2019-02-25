@@ -47,7 +47,9 @@ make link
 make others
 ```
 soft link to data,pretrain,log,logger
-
+## Choice model  
+1.copy config, train.py ,eval.py,model.py in the model file.  
+2.to future I will use yaml to together all.  
 ## Training
 1. create the config file of dataset:`train.txt`, `val.txt`, `test.txt`   
     file structure：(split with `tab`)
